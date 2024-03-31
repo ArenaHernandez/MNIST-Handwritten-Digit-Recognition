@@ -48,7 +48,7 @@ The model is trained using the Adam optimizer and sparse categorical crossentrop
 Throughout the project, various insights were gained regarding neural network architectures, hyperparameters, and optimization techniques. Future improvements could include experimenting with different architectures, hyperparameters, and regularization techniques to further enhance model performance.
 
 ## Note:
-This is just an example architecture and compilation. Feel free to experiment with different architectures, hyperparameters, and optimization techniques to improve model performance. Feel free to explore the repository, try out the model, and contribute to its improvement!
+This is just an example architecture and compilation. Feel free to experiment with different architectures, hyperparameters, and optimization techniques to improve model performance. You are welcome to explore the repository, try out the model, and contribute to its improvement!
 
 
 ## Credits
