@@ -9,8 +9,6 @@
 - Finally, a Dense layer with 10 units and a 'softmax' activation function is added for the output layer, representing the 10 classes (digits 0-9).
 - The model is compiled using the Adam optimizer, sparse categorical crossentropy loss function, and accuracy as the evaluation metric.
 
-# **Note:** This is just an example architecture and compilation. Feel free to experiment with different architectures, hyperparameters, and optimization techniques to improve model performance.
-
 # Handwritten Digit Recognition using Neural Networks
 
 ## Overview
@@ -52,9 +50,12 @@ The model is trained using the Adam optimizer and sparse categorical crossentrop
 ## Insights Gained and Future Improvements
 Throughout the project, various insights were gained regarding neural network architectures, hyperparameters, and optimization techniques. Future improvements could include experimenting with different architectures, hyperparameters, and regularization techniques to further enhance model performance.
 
+## Note:
+This is just an example architecture and compilation. Feel free to experiment with different architectures, hyperparameters, and optimization techniques to improve model performance. Feel free to explore the repository, try out the model, and contribute to its improvement!
+
+
 ## Credits
 I followed codebasics from their YouTube tutorial: [CodeBasics Neural Network For Handwritten Digits Classification](https://www.youtube.com/watch?v=iqQgED9vV7k&t=861s)
 
 
-Feel free to explore the repository, try out the model, and contribute to its improvement!
 
