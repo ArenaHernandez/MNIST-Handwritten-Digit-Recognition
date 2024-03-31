@@ -1,27 +1,5 @@
 # Neural network for predicting MNIST digits
 
-This repository contains a neural network implemented in Python using Keras to predict handwritten digits from the MNIST dataset.
-
-**Neural Network Architecture**
-The neural network architecture used for this project is as follows:
-
-```
-model = keras.Sequential([
-    keras.layers.Dense(256, input_shape=(784,), activation='relu'),
-    keras.layers.Dropout(0.5),
-    keras.layers.Dense(128, activation='relu'),
-    keras.layers.Dense(128, activation='relu'),
-    keras.layers.BatchNormalization(),
-    keras.layers.Dense(10, activation='softmax')
-])
-
-model.compile(optimizer='adam',
-              loss='sparse_categorical_crossentropy',
-              metrics=['accuracy'])
-```
-
-I followed codebasics from their YouTube tutorial: [CodeBasics Neural Network For Handwritten Digits Classification](https://www.youtube.com/watch?v=iqQgED9vV7k&t=861s)
-
 ## Explanation
 - The model consists of a Sequential container to which layers are added sequentially.
 - The first layer is a Dense layer with 256 units and a 'relu' activation function, which takes the input shape of (784,) representing flattened 28x28 pixel images.
@@ -73,6 +51,10 @@ The model is trained using the Adam optimizer and sparse categorical crossentrop
 
 ## Insights Gained and Future Improvements
 Throughout the project, various insights were gained regarding neural network architectures, hyperparameters, and optimization techniques. Future improvements could include experimenting with different architectures, hyperparameters, and regularization techniques to further enhance model performance.
+
+## Credits
+I followed codebasics from their YouTube tutorial: [CodeBasics Neural Network For Handwritten Digits Classification](https://www.youtube.com/watch?v=iqQgED9vV7k&t=861s)
+
 
 Feel free to explore the repository, try out the model, and contribute to its improvement!
 
