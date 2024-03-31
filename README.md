@@ -52,7 +52,7 @@ This is just an example architecture and compilation. Feel free to experiment wi
 
 
 ## Credits
-I followed codebasics from their YouTube tutorial: [CodeBasics Neural Network For Handwritten Digits Classification](https://www.youtube.com/watch?v=iqQgED9vV7k&t=861s)
+I followed [codebasics'](https://www.youtube.com/@codebasics) YouTube tutorial: [CodeBasics Neural Network For Handwritten Digits Classification](https://www.youtube.com/watch?v=iqQgED9vV7k&t=861s)
 
 
 
