@@ -2,7 +2,7 @@
 Neural network for predicting MNIST digits
 This repository contains a neural network implemented in Python using Keras to predict handwritten digits from the MNIST dataset.
 
-*Neural Network Architecture*
+**Neural Network Architecture**
 The neural network architecture used for this project is as follows:
 
 ```
