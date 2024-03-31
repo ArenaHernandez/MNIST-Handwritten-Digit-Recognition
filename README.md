@@ -1,5 +1,4 @@
-# MNIST-Handwritten-Digit-Recognition
-Neural network for predicting MNIST digits
+# Neural network for predicting MNIST digits
 
 This repository contains a neural network implemented in Python using Keras to predict handwritten digits from the MNIST dataset.
 
