@@ -1,4 +1,7 @@
-# Neural network for predicting MNIST digits
+# Handwritten Digit Recognition using Neural Networks
+
+## Overview
+This repository contains a Python implementation of a neural network model for recognizing handwritten digits from the MNIST dataset. The model is built using TensorFlow and Keras.
 
 ## Explanation
 - The model consists of a Sequential container to which layers are added sequentially.
@@ -8,12 +11,6 @@
 - BatchNormalization layer is added to normalize the activations of the previous layer at each batch.
 - Finally, a Dense layer with 10 units and a 'softmax' activation function is added for the output layer, representing the 10 classes (digits 0-9).
 - The model is compiled using the Adam optimizer, sparse categorical crossentropy loss function, and accuracy as the evaluation metric.
-
-# Handwritten Digit Recognition using Neural Networks
-
-## Overview
-
-This repository contains a Python implementation of a neural network model for recognizing handwritten digits from the MNIST dataset. The model is built using TensorFlow and Keras.
 
 ## Project Structure
 
