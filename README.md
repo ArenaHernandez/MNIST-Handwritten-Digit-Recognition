@@ -20,5 +20,5 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 ```
 
-I followed codebasics from their YouTube tutorial: [CodeBasics Neural Network For Handwritten Digits Classification][1]
-[1]: [https://www.youtube.com/watch?v=iqQgED9vV7k&t=861s]{:target="_blank"}
+I followed codebasics from their YouTube tutorial: [CodeBasics Neural Network For Handwritten Digits Classification]
+[1]:[https://www.youtube.com/watch?v=iqQgED9vV7k&t=861s]{:target="_blank"}
