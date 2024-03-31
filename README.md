@@ -66,7 +66,8 @@ model = keras.Sequential([
 model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
-Training Process and Performance Evaluation
+
+## Training Process and Performance Evaluation
 The model is trained using the Adam optimizer and sparse categorical crossentropy loss function. Performance metrics such as accuracy are used for evaluation. For detailed training and evaluation processes, refer to the source code in the src/ directory.
 
 Insights Gained and Future Improvements
@@ -74,5 +75,3 @@ Throughout the project, various insights were gained regarding neural network ar
 
 Feel free to explore the repository, try out the model, and contribute to its improvement!
 
-arduino
-Copy code
