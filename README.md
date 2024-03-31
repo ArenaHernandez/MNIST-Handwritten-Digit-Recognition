@@ -19,3 +19,5 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 ```
+
+I followed codebasics from their YouTube tutorial: [CodeBasics Neural Network For Handwritten Digits Classification](https://www.youtube.com/watch?v=iqQgED9vV7k&t=861s)
